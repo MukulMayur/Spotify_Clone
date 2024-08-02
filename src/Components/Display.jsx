@@ -24,7 +24,7 @@ function Display() {
       className="w-[100%] m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:w-[75%] lg:ml-0"
     >
       <Routes>
-        <Route path="/" element={<DisplayHome />} />
+        <Route path="/Spotify_Clone/" element={<DisplayHome />} />
         <Route path="/Album/:id" element={<DisplayAlbum />} />
       </Routes>
     </div>
