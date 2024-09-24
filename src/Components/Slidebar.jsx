@@ -7,7 +7,7 @@ function Slidebar() {
     <div className="h-full w-[25%] gap-2 p-2  flex-col text-white lg:flex hidden ">
       <div className=" bg-[#121212] h-[15%] rounded flex justify-around flex-col">
         <div
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/Spotify_Clone/")}
           className=" flex gap-3 items-center pl-8 cursor-pointer"
         >
           <img

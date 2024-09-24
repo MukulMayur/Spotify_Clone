@@ -4,7 +4,7 @@ function AlbumItems({ image, name, desc, id }) {
   const navigate = useNavigate();
   return (
     <div
-      onClick={() => navigate(`/album/${id}`)}
+      onClick={() => navigate(`/Spotify_Clone/album/${id}`)}
       className="min-w-[180px] p-2 px-3 rounded  cursor-pointer hover:bg-[#ffffff26]"
     >
       <img src={image} className="rounded" />
