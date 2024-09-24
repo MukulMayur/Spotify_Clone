@@ -5,7 +5,25 @@
     <link rel="icon" type="image/svg+xml" href="/Spotify_Clone/assets/spotify_logo-2djlNFl9.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify-Clone</title>
-    <script type="module" crossorigin src="/Spotify_Clone/assets/index-C0YO0SGa.js"></script>
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/Spotify_Clone/assets/index-CwXXYV2C.js"></script>
     <link rel="stylesheet" crossorigin href="/Spotify_Clone/assets/index-7Hf_3dew.css">
   </head>
   <body>
